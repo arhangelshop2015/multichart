@@ -22,7 +22,7 @@ class CDPResponse:
 class ChromeCDP:
     """Thin CDP client for creating/activating tabs and taking screenshots."""
 
-    def __init__(self, host: str = "127.0.0.1", port: int = 9222) -> None:
+    def __init__(self, host: str = "127.0.0.1", port: int = 9333) -> None:
         self.host = host
         self.port = port
         self._message_id = 0
